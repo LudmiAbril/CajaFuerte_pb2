@@ -13,7 +13,7 @@ public class Tests {
 	}
 
 	@Test
-	public void queSeCierreLaCajaALIngresarElCodigo() {
+	public void queSeCierreLaCajaYSeteeElCodigo() {
 		CajaFuerte caja = new CajaFuerte(2246);
 		caja.cerrar(1234);
 		assertFalse(caja.estaAbierta());
